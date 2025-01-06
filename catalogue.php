@@ -1,5 +1,27 @@
 <?php
-    // Store Page for the Gaming Accessories Store
+    // Function to load products from the CSV file
+    function loadProductsFromCSV($filePath) {
+        $products = [];
+        if (($handle = fopen($filePath, "r")) !== false) {
+            // Skip the header row
+            fgetcsv($handle);
+
+            // Read each row and store as an associative array
+            while (($data = fgetcsv($handle, 1000, ",")) !== false) {
+                $products[] = [
+                    'id' => $data[0],
+                    'name' => $data[2],
+                    'price' => $data[3],
+                    'image' => $data[1]
+                ];
+            }
+            fclose($handle);
+        }
+        return $products;
+    }
+
+    // Load products
+    $products = loadProductsFromCSV('produits.csv');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,34 +37,17 @@
         <section>
             <h2>Our Products</h2>
             <div class="product-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px;">
-                <div class="product">
-                    <a href="product.php?id=1">
-                        <div class="product-box" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; text-align: center;">
-                            <img src="img/product1.jpg" alt="Product 1" style="max-width: 100%; height: auto;">
-                            <h3>Product 1</h3>
-                            <p>$29.99</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="product">
-                    <a href="product.php?id=2">
-                        <div class="product-box" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; text-align: center;">
-                            <img src="img/product2.jpg" alt="Product 2" style="max-width: 100%; height: auto;">
-                            <h3>Product 2</h3>
-                            <p>$49.99</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="product">
-                    <a href="product.php?id=3">
-                        <div class="product-box" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; text-align: center;">
-                            <img src="img/product3.jpg" alt="Product 3" style="max-width: 100%; height: auto;">
-                            <h3>Product 3</h3>
-                            <p>$19.99</p>
-                        </div>
-                    </a>
-                </div>
-                <!-- Add more placeholder products as needed -->
+                <?php foreach ($products as $product): ?>
+                    <div class="product">
+                        <a href="product.php?id=<?= htmlspecialchars($product['id']) ?>">
+                            <div class="product-box" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; text-align: center;">
+                                <img src="<?= htmlspecialchars($product['image']) ?>" alt="<?= htmlspecialchars($product['name']) ?>" style="max-width: 100%; height: auto;">
+                                <h3><?= htmlspecialchars($product['name']) ?></h3>
+                                <p><?= htmlspecialchars($product['price']) ?>€</p>
+                            </div>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </section>
     </main>
