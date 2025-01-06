@@ -1,0 +1,128 @@
+/* General styles for the Gaming Accessories Store */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #ffffff;
+}
+
+header {
+    background-color: #162447;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header .banner h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #e43f5a;
+}
+
+nav {
+    background-color: #1f4068;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e43f5a;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    color: #e43f5a;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.product-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #162447;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.product-box h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.product-box p {
+    font-size: 1rem;
+    color: #e43f5a;
+    margin: 0;
+}
+
+.product-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #1f4068;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+footer .footer-banner {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+}
