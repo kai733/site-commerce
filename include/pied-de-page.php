@@ -1,5 +1,5 @@
 <footer>
     <div class="footer-banner">
-        <p>&copy; 2024 Gaming Accessories Store. All rights reserved.</p>
+        <p>© 2024 Gaming Accessories Store. Tous droits réservés. &nbsp; <a id="mentions-legales" href="mentions-legales.php">Mentions légales</a></p>
     </div>
 </footer>
