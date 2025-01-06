@@ -2,7 +2,7 @@
     // Store Page for the Gaming Accessories Store
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="banner">
-            <h1>Gaming Accessories Store</h1>
-        </div>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="store.php">Store</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="legal.php">Legal Mentions</a></li>
-            <li><a href="cart.php">Cart</a></li>
-        </ul>
-    </nav>
+<?php include 'include/entete.php'; ?>
     <main>
         <section>
             <h2>Our Products</h2>
@@ -59,10 +46,6 @@
             </div>
         </section>
     </main>
-    <footer>
-        <div class="footer-banner">
-            <p>&copy; 2024 Gaming Accessories Store. All rights reserved.</p>
-        </div>
-    </footer>
+    <?php include 'include/pied-de-page.php'; ?>
 </body>
 </html>
