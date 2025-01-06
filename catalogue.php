@@ -1,0 +1,56 @@
+<?php
+    // Function to load products from the CSV file
+    function loadProductsFromCSV($filePath) {
+        $products = [];
+        if (($handle = fopen($filePath, "r")) !== false) {
+            // Skip the header row
+            fgetcsv($handle);
+
+            // Read each row and store as an associative array
+            while (($data = fgetcsv($handle, 1000, ",")) !== false) {
+                $products[] = [
+                    'id' => $data[0],
+                    'name' => $data[2],
+                    'price' => $data[3],
+                    'image' => $data[1]
+                ];
+            }
+            fclose($handle);
+        }
+        return $products;
+    }
+
+    // Load products
+    $products = loadProductsFromCSV('produits.csv');
+?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store - Gaming Accessories Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<?php include 'include/entete.php'; ?>
+    <main>
+        <section>
+            <h2>Our Products</h2>
+            <div class="product-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px;">
+                <?php foreach ($products as $product): ?>
+                    <div class="product">
+                        <a href="product.php?id=<?= htmlspecialchars($product['id']) ?>">
+                            <div class="product-box" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; text-align: center;">
+                                <img src="<?= htmlspecialchars($product['image']) ?>" alt="<?= htmlspecialchars($product['name']) ?>" style="max-width: 100%; height: auto;">
+                                <h3><?= htmlspecialchars($product['name']) ?></h3>
+                                <p><?= htmlspecialchars($product['price']) ?>€</p>
+                            </div>
+                        </a>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </section>
+    </main>
+    <?php include 'include/pied-de-page.php'; ?>
+</body>
+</html>
