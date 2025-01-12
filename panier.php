@@ -57,7 +57,7 @@ $cart = isset($_COOKIE['cart']) ? json_decode($_COOKIE['cart'], true) : [];
         <h2>Votre Panier</h2>
         <?php
         if (empty($cart)) {
-            echo "<p class='empty-cart'>Votre panier est vide.</p>";
+            echo "<p class='empty-cart'>est vide...</p>";
         } else {
             $total = 0;
             ?>

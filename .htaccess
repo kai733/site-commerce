@@ -1,1 +1,1 @@
-Redirect 301 /test /404.html
+ErrorDocument 404 /site-commerce/404.php
