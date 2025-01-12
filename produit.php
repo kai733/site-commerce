@@ -54,9 +54,36 @@
             <div class="product-details">
                 <img src="<?= htmlspecialchars($product['image']) ?>" alt="<?= htmlspecialchars($product['name']) ?>">
                 <p>Prix: <?= htmlspecialchars($product['price']) ?>€</p>
-                </div>
+                <form method="post">
+                    <button class="boutton-vert" type="submit" name="add_to_cart" value="<?= htmlspecialchars($product['id']) ?>">Ajouter au panier</button>
+                </form>
+            </div>
         </section>
     </main>
 <?php include 'include/pied-de-page.php'; ?>
 </body>
 </html>
+
+<?php
+    // Handle adding to cart
+    if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["add_to_cart"])) {
+        $productId = $_POST["add_to_cart"];
+
+        // Get existing cart from cookie
+        $cart = isset($_COOKIE['cart']) ? json_decode($_COOKIE['cart'], true) : [];
+
+        // Add product to cart (or update quantity if already exists)
+        if (isset($cart[$productId])) {
+            $cart[$productId]++;
+        } else {
+            $cart[$productId] = 1;
+        }
+
+        // Set cookie with updated cart (expire in 1 day)
+        setcookie('cart', json_encode($cart), time() + 86400, '/');
+
+        // Redirect to confirmation page
+        header("Location: confirmation.php?id=" . $productId);
+        exit();
+    }
+?>
