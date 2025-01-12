@@ -1,24 +1,24 @@
 <?php
-    // This is the main page of the Gaming Accessories Store
+    // Ceci est la page principale du magasin d'accessoires de jeu
 ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaming Accessories Store</title>
+    <title>Magasin d'accessoires de jeu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <?php include 'include/entete.php'; ?>
     <main>
         <section>
-            <h2>About Our Store</h2>
-            <p>Discover the ultimate collection of gaming accessories to elevate your gaming experience. From keyboards to headsets, we have everything you need to win.</p>
+            <h2>À propos de notre magasin</h2>
+            <p>Découvrez la collection ultime d'accessoires de jeu pour améliorer votre expérience de jeu. Des claviers aux casques, nous avons tout ce dont vous avez besoin pour gagner.</p>
         </section>
         <section>
-            <h2>Why Choose Us?</h2>
-            <p>We offer top-notch products from leading brands, ensuring quality and performance. Shop with confidence and take your gaming to the next level.</p>
+            <h2>Pourquoi nous choisir ?</h2>
+            <p>Nous offrons des produits haut de gamme de grandes marques, garantissant qualité et performance. Achetez en toute confiance et faites passer votre jeu au niveau supérieur.</p>
         </section>
     </main>
     <?php include 'include/pied-de-page.php'; ?>
