@@ -1,13 +1,12 @@
-/* General styles for the Gaming Accessories Store */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #1a1a2e;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #333333;
 }
 
 header {
-    background-color: #162447;
+    background-color: #f8f9fa;
     text-align: center;
     padding: 20px 0;
 }
@@ -15,11 +14,11 @@ header {
 header .banner h1 {
     margin: 0;
     font-size: 2rem;
-    color: #e43f5a;
+    color: #2d3748;
 }
 
 nav {
-    background-color: #1f4068;
+    background-color: #e9ecef;
 }
 
 nav ul {
@@ -37,7 +36,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #333333;
     font-size: 1rem;
     padding: 10px 15px;
     display: block;
@@ -45,7 +44,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #e43f5a;
+    background-color: #2d3748;
+    color: #ffffff;
     border-radius: 5px;
 }
 
@@ -56,11 +56,11 @@ main {
 
 main h2 {
     font-size: 1.5rem;
-    color: #e43f5a;
+    color: #2d3748;
 }
 
 #mentions-legales {
-    color: #ffffff;
+    color: #2d3748;
     text-decoration: none;
     text-align: right;
 }
@@ -81,7 +81,7 @@ main h2 {
 .product-box {
     border: 1px solid #ddd;
     border-radius: 8px;
-    background-color: #162447;
+    background-color: #ffffff;
     padding: 16px;
     text-align: left;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -89,6 +89,7 @@ main h2 {
     display: flex;
     align-items: flex-start;
     gap: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .product-box img {
@@ -105,13 +106,13 @@ main h2 {
 .product-box h3 {
     margin: 10px 0;
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #333333;
 }
 
 .product-box p {
     text-decoration: none;
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #666666;
     margin: 0;
 }
 
@@ -265,7 +266,7 @@ footer {
 }
 
 footer {
-    background-color: #1f4068;
+    background-color: #f8f9fa;
     text-align: center;
     padding: 30px 0;
     margin-top: 20px;
@@ -273,7 +274,7 @@ footer {
 
 footer .footer-banner {
     font-size: 1rem;
-    color: #ffffff;
+    color: #333333;
 }
 
 /* Responsive Styles */
