@@ -17,50 +17,61 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<?php include 'include/entete.php'; ?>
+    <?php include 'include/entete.php'; ?>
     <main>
+    <!-- Section Contact -->
     <section class="contact">
-        <h2>Contactez-nous</h2>
-        <div class="contact-info">
-            <div class="info">
-                <h3>Horaires</h3>
-                <p>Ouvert du lundi au samedi, de 9h à 18h,<br> même les jours fériés.</p>
-            </div>
-            <div class="info">
-                <h3>Service Client</h3>
-                <p>+33 1 23 45 67 89<br>Disponible 7j/7, 24h/24.</p>
-            </div>
-            <div class="info">
-                <h3>Email</h3>
-                <p><a href="mailto:contact@jeux.com">contact@jeux.com</a></p>
-            </div>
+    <div class="contact-info">
+        <div class="info">
+            <h3><i class="fas fa-clock"></i> Horaires</h3> <!-- Icône horloge -->
+            <p>Ouvert du lundi au samedi, de 9h à 18h,<br> même les jours fériés.</p>
         </div>
+        <div class="info">
+            <h3><i class="fas fa-phone-alt"></i> Service Client</h3> <!-- Icône téléphone -->
+            <p>+33 1 23 45 67 89<br>Disponible 7j/7, 24h/24.</p>
+        </div>
+        <div class="info">
+            <h3><i class="fas fa-envelope"></i> Email</h3> <!-- Icône enveloppe -->
+            <p><a href="mailto:contact@jeux.com">contact@jeux.com</a></p>
+        </div>
+    </div>
+</section>
+        <div class="contact-form">
+    <h2>Contactez-nous</h2>
+    <form>
+        <div class="form-group">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" placeholder="Votre prénom" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="Votre email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message :</label>
+            <textarea id="message" placeholder="Votre message"></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+</div>
 
-        <form class="contact-form">
-            <h2>Envoyez-nous un message</h2>
-            <div class="form-group">
-                <label for="first-name">Prénom</label>
-                <input type="text" id="first-name" name="first-name" placeholder="Votre prénom" required>
-            </div>
-            <div class="form-group">
-                <label for="last-name">Nom</label>
-                <input type="text" id="last-name" name="last-name" placeholder="Votre nom" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Votre email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Votre message</label>
-                <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea>
-            </div>
-        </section>
-    </main>
+        <!-- Google Map Embed -->
+        <div class="google-map">
+            <h2>Notre emplacement</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9659352393777!2d2.294481315674846!3d48.85884407928793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d5c6d3a2b9%3A0x98be4fa18c9d4c5d!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1627646581097!5m2!1sfr!2sfr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+</main>
+
+
     <footer>
         <div class="footer-banner">
-            <p>&copy; 2024 Gaming Accessories Store. All rights reserved.</p>
+            <p>&copy; 2024 Gaming Accessories Store. Tous droits réservés.</p>
         </div>
     </footer>
 </body>
 </html>
-
