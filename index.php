@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magasin d'accessoires de jeu</title>
+    <title>Accueil - Boutique Gaming</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
