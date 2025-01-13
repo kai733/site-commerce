@@ -12,48 +12,28 @@
     <h2>Legal Mentions</h2>
 
     <section class="legal-section">
-        <h3>1. Publisher</h3>
+        <h3>1. Éditeur</h3>
         <p>
-            The Gaming Accessories Store is operated by <strong>Your Company Name</strong>, a company registered in <strong>Your Country</strong>.
+            La Boutique d'Accessoires de Jeu est exploitée par <strong>Boutique de Jeux Vidéo</strong>, une société enregistrée en France.
             <br>
-            Address: <strong>Your Company Address</strong><br>
-            Email: <strong>contact@yourcompany.com</strong><br>
-            Phone: <strong>Your Phone Number</strong><br>
+            Adresse : <strong>123 Rue des Jeux Vidéo, 75000 Paris, France</strong><br>
+            Contactez-nous : <a href="contact.php"><strong>Page Contact</strong></a><br>
+            Numéro de SIRET : <strong>12345678901234</strong><br>
+            Numéro de TVA intracommunautaire : <strong>FR1234567890</strong><br>
         </p>
-    </section>
 
-    <section class="legal-section">
-        <h3>2. Privacy Policy</h3>
+        <h3>2. Propriété Intellectuelle</h3>
         <p>
-            We take your privacy seriously. The information we collect is used solely for providing and improving our services. For detailed information, please refer to our <a href="privacy-policy.php">Privacy Policy</a>.
+            Tout le contenu de ce site web, y compris les textes, images, logos et graphiques, est protégé par les lois sur la propriété intellectuelle. Toute utilisation ou reproduction non autorisée est interdite.
         </p>
-    </section>
 
-    <section class="legal-section">
-        <h3>3. Terms of Use</h3>
+        <h3>3. Limitation de Responsabilité</h3>
         <p>
-            By accessing and using our website, you agree to our <a href="terms-of-use.php">Terms of Use</a>. Please read them carefully.
+            La Boutique d'Accessoires de Jeu n'est pas responsable des dommages résultant de l'utilisation de ce site web, y compris, mais sans s'y limiter, les erreurs, les interruptions ou les virus.
         </p>
-    </section>
-
-    <section class="legal-section">
-        <h3>4. Intellectual Property</h3>
+        <h3>4. Droit Applicable</h3>
         <p>
-            All content on this website, including text, images, logos, and graphics, is protected by intellectual property laws. Unauthorized use or reproduction is prohibited.
-        </p>
-    </section>
-
-    <section class="legal-section">
-        <h3>5. Limitation of Liability</h3>
-        <p>
-            The Gaming Accessories Store is not liable for any damages arising from the use of this website, including but not limited to errors, interruptions, or viruses.
-        </p>
-    </section>
-
-    <section class="legal-section">
-        <h3>6. Governing Law</h3>
-        <p>
-            These legal mentions are governed by the laws of <strong>Your Country</strong>. Any disputes will be handled by the competent courts of <strong>Your City, Your Country</strong>.
+            Les présentes mentions légales sont régies par les lois de <strong>France</strong>. Tout litige sera soumis aux tribunaux compétents de <strong>Paris, France</strong>.
         </p>
     </section>
 </main>

@@ -35,11 +35,11 @@
 <?php include 'include/entete.php'; ?>
     <main>
         <section>
-            <h2>Our Products</h2>
+            <h2>Nos Produits</h2>
             <div class="product-flex">
                 <?php foreach ($products as $product): ?>
                     <div class="product">
-                        <a href="product.php?id=<?= htmlspecialchars($product['id']) ?>">
+                        <a href="produit.php?id=<?= htmlspecialchars($product['id']) ?>">
                             <div class="product-box">
                                 <img src="<?= htmlspecialchars($product['image']) ?>" alt="<?= htmlspecialchars($product['name']) ?>">
                                 <h3><?= htmlspecialchars($product['name']) ?></h3>
