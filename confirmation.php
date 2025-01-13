@@ -63,6 +63,7 @@ if (!$product) {
                 <img src="<?= htmlspecialchars($product['image']) ?>" alt="<?= htmlspecialchars($product['name']) ?>">
             </div>
             <a href="catalogue.php"><button class="boutton-pas-vert">Continuer vos achats</button></a>
+            <a href="panier.php"><button class="boutton-pas-vert">Aller au panier</button></a>
         </section>
     </main>
     <?php include 'include/pied-de-page.php'; ?>
