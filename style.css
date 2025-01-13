@@ -32,13 +32,10 @@ nav ul {
     align-items: center; /* Alignement vertical */
 }
 
-<<<<<<< HEAD
 nav ul li {
     margin:10px 0; /* Espacement horizontal entre les éléments */
 }
 
-=======
->>>>>>> 25c35a1113b054220fcaa3ea19bd960fcef86af2
 nav ul li a {
     text-decoration: none;
     color: #333333;
