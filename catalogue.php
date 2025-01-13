@@ -36,12 +36,12 @@
     <main>
         <section>
             <h2>Our Products</h2>
-            <div class="product-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px;">
+            <div class="product-flex">
                 <?php foreach ($products as $product): ?>
                     <div class="product">
                         <a href="product.php?id=<?= htmlspecialchars($product['id']) ?>">
-                            <div class="product-box" style="border: 1px solid #ddd; border-radius: 8px; padding: 16px; text-align: center;">
-                                <img src="<?= htmlspecialchars($product['image']) ?>" alt="<?= htmlspecialchars($product['name']) ?>" style="max-width: 100%; height: auto;">
+                            <div class="product-box">
+                                <img src="<?= htmlspecialchars($product['image']) ?>" alt="<?= htmlspecialchars($product['name']) ?>">
                                 <h3><?= htmlspecialchars($product['name']) ?></h3>
                                 <p><?= htmlspecialchars($product['price']) ?>€</p>
                             </div>
