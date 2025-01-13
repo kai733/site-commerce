@@ -26,21 +26,24 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     display: flex; /* Alignement horizontal */
     justify-content: center; /* Centrer les éléments */
     align-items: center; /* Alignement vertical */
 }
 
+<<<<<<< HEAD
 nav ul li {
     margin:10px 0; /* Espacement horizontal entre les éléments */
 }
 
+=======
+>>>>>>> 25c35a1113b054220fcaa3ea19bd960fcef86af2
 nav ul li a {
     text-decoration: none;
     color: #333333;
     font-size: 1rem;
-    padding: 10px 15px;
+    padding: 15px 30px;
     transition: background-color 0.3s;
     border-radius: 5px; /* Ajout d'un style visuel */
 }
@@ -396,10 +399,6 @@ footer {
     text-align: center;
     padding: 1rem 0;
     background: #333;
-    color: white;
-}
-
-footer {
     background-color: #f8f9fa;
     text-align: center;
     padding: 30px 0;
