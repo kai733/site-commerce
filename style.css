@@ -146,10 +146,11 @@ main h2 {
     background: #f5f5f5;
     color: #2d3748;
     padding: 1rem;
+    margin: 10px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 .form-group:hover {
@@ -168,7 +169,7 @@ main h2 {
     border: 1px solid #ccc;
     border-radius: 6px;
     background-color: #ffffff;
-    color: #ff0303;
+    color: #1b1b1b;
     font-size: 1rem;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
