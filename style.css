@@ -33,7 +33,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px; /* Espacement horizontal entre les éléments */
+    margin:10px 0; /* Espacement horizontal entre les éléments */
 }
 
 nav ul li a {
@@ -226,8 +226,6 @@ main h2 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-}
-
 /* Section de Contact */
 .contact {
     display: flex;
@@ -276,7 +274,7 @@ main h2 {
     border: 1px solid #ccc;
     border-radius: 6px;
     background-color: #ffffff;
-    color: #333;
+    color: #ff0303;
     font-size: 1rem;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -319,7 +317,7 @@ main h2 {
 /* Contenu des informations de contact à droite */
 .contact-info {
     width: 45%; /* Le bloc des informations de contact occupe 45% de la largeur de la section */
-    background-color: #162447;
+    background-color: #b700ff;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);

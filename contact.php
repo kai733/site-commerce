@@ -13,23 +13,6 @@
 <body>
     <?php include 'include/entete.php'; ?>
     <main>
-    <!-- Section Contact -->
-    <section class="contact">
-    <div class="contact-info">
-        <div class="info">
-            <h3><i class="fas fa-clock"></i> Horaires</h3> <!-- Icône horloge -->
-            <p>Ouvert du lundi au samedi, de 9h à 18h,<br> même les jours fériés.</p>
-        </div>
-        <div class="info">
-            <h3><i class="fas fa-phone-alt"></i> Service Client</h3> <!-- Icône téléphone -->
-            <p>+33 1 23 45 67 89<br>Disponible 7j/7, 24h/24.</p>
-        </div>
-        <div class="info">
-            <h3><i class="fas fa-envelope"></i> Email</h3> <!-- Icône enveloppe -->
-            <p><a href="mailto:contact@jeux.com">contact@jeux.com</a></p>
-        </div>
-    </div>
-</section>
         <div class="contact-form">
     <h2>Contactez-nous</h2>
     <form>
