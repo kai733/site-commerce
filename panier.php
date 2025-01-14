@@ -103,12 +103,13 @@ $cart = isset($_COOKIE['cart']) ? json_decode($_COOKIE['cart'], true) : [];
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="4"><strong>Total:</strong></td>
-                        <td><strong><?php echo number_format($total, 2); ?> €</strong></td>
+                        <td colspan="3"><strong>Total:</strong></td>
+                        <td colspan="2"><strong><?php echo number_format($total, 2); ?> €</strong></td>
                     </tr>
                 </tfoot>
             </table>
             </form>
+            <a href="index.php"><button class="checkout">Payer</button></a>
             <?php
         }
         ?>
