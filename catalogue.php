@@ -38,7 +38,6 @@
             <h2>Nos Produits</h2>
             <div class="product-flex">
                 <?php foreach ($products as $product): ?>
-                    <div class="product">
                         <a href="produit.php?id=<?= htmlspecialchars($product['id']) ?>">
                             <div class="product-box">
                                 <img src="<?= htmlspecialchars($product['image']) ?>" alt="<?= htmlspecialchars($product['name']) ?>">
@@ -46,7 +45,6 @@
                                 <p><?= htmlspecialchars($product['price']) ?>€</p>
                             </div>
                         </a>
-                    </div>
                 <?php endforeach; ?>
             </div>
         </section>
