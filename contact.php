@@ -35,8 +35,8 @@
                     <button type="submit">Envoyer</button>
                 </form>
             </div>
-
-            <div class="social-media">
+        </div>
+        <div class="social-media">
                 <h2>Suivez-nous sur les réseaux sociaux</h2>
                 <a href="https://twitter.com/official_account" target="_blank">
                     <img src="img/twitter.jpg" alt="Twitter">
@@ -50,7 +50,6 @@
                 <a href="https://www.tiktok.com/@tiktok?lang=fr" target="_blank">
                     <img src="img/tikk tok.jpg" alt="TikTok">
                 </a>
-            </div>
         </div>
 
         <!-- Google Map Embed -->

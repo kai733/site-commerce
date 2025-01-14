@@ -60,6 +60,7 @@ main {
     padding: 20px;
     text-align: center;
     flex: 1;
+    background-color: white;
 }
 
 main h2 {
@@ -97,13 +98,13 @@ a {
 /* Carousel */
 .carousel {
     position: relative;
-    width: 80%;
+    width: 50%;
     margin: 20px auto;
     overflow: hidden;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
-
 .carousel-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -116,8 +117,8 @@ a {
 }
 
 .carousel img {
-    width: 100%;
-    height: auto;
+    width: 50%;
+    max-height: 100%;
 }
 
 .carousel-button {
@@ -126,7 +127,8 @@ a {
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    border: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
     padding: 10px;
     cursor: pointer;
 }
@@ -137,6 +139,14 @@ a {
 
 .carousel-button.next {
     right: 10px;
+}
+
+.product-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 20px auto;
+    max-width: 1200px;
 }
 
 .product-flex a{
@@ -169,16 +179,16 @@ a {
 }
 
 .product-box h3 {
+    margin: 10px 0;
     font-size: 1.2rem;
     color: #333333;
-    
 }
 
 .product-box p {
     text-decoration: none;
     font-size: 1.2rem;
-    color: #232323;
-    padding: 1%;
+    color: #666666;
+    margin: 0;
 }
 
 .product-box:hover {
@@ -320,9 +330,14 @@ a {
     border-radius: 5px;
     overflow: hidden;
     text-align: center;
-    line-height: 60px;
 }
 
+.social-media{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 5%;
+}
 .social-media img {
     max-width: 100%;
     max-height: 100%;
