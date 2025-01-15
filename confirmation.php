@@ -11,7 +11,8 @@ if (!$productId) {
 }
 
 // Load products (same function as in produit.php)
-function loadProductsFromCSV($filePath) {
+function loadProductsFromCSV($filePath)
+{
     $products = [];
     if (($handle = fopen($filePath, "r")) !== false) {
         fgetcsv($handle); // Skip header row
@@ -48,12 +49,14 @@ if (!$product) {
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confirmation d'ajout au panier - Boutique Gaming</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <?php include 'include/entete.php'; ?>
     <main>
@@ -68,4 +71,5 @@ if (!$product) {
     </main>
     <?php include 'include/pied-de-page.php'; ?>
 </body>
+
 </html>
