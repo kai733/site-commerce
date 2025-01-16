@@ -395,7 +395,6 @@ button.checkout {
     color: white;
     padding: 10px 20px;
     margin-top: 1%;
-    transform: background 0, 2s;
     cursor: pointer;
 }
 
