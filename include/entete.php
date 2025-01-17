@@ -1,6 +1,5 @@
 <header>
     <div class="banner">
-        <h1>Boutique d'Accessoires de Jeux Vidéo</h1>
     </div>
     <nav class="navbar">
         <div class="container">

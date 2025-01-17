@@ -63,26 +63,26 @@
                 <div class="carousel-item"><img src="img/tapis.jpg" alt="Produit 3"></div>
             </div>
             <button class="carousel-button prev" onclick="prevSlide('featured-products')">&#10094;</button>
-            <button class="carousel-button next" onclick="nextSlide('featured-products')">&#10095;</button>
-        </section>
+<button class="carousel-button next" onclick="nextSlide('featured-products')">&#10095;</button>
+</section>
 
-        <!-- Customer Reviews Carousel -->
-        <section class="carousel">
-            <h2>Avis des clients satisfaits</h2>
-            <div class="carousel-container" id="customer-reviews">
-                <!-- Add your customer reviews here -->
-                <div class="carousel-item"><p>"Excellent produit, je recommande!" - Jean</p></div>
-                <div class="carousel-item"><p>"Service client au top!" - Marie</p></div>
-                <div class="carousel-item"><p>"Livraison rapide et produit conforme." - Pierre</p></div>
-            </div>
-            <button class="carousel-button prev" onclick="prevSlide('customer-reviews')">&#10094;</button>
-            <button class="carousel-button next" onclick="nextSlide('customer-reviews')">&#10095;</button>
-        </section>
-    </main>
+<!-- Customer Reviews Carousel -->
+<section class="carousel">
+    <h2>Avis des clients satisfaits</h2>
+    <div class="carousel-container" id="customer-reviews">
+        <!-- Add your customer reviews here -->
+        <div class="carousel-item"><p>"Excellent produit, je recommande!" - Jean</p></div>
+        <div class="carousel-item"><p>"Service client au top!" - Marie</p></div>
+        <div class="carousel-item"><p>"Livraison rapide et produit conforme." - Pierre</p></div>
+    </div>
+    <button class="carousel-button prev" onclick="prevSlide('customer-reviews')">&#10094;</button>
+    <button class="carousel-button next" onclick="nextSlide('customer-reviews')">&#10095;</button>
+</section>
+</main>
 
-    <?php include 'include/pied-de-page.php'; ?>
+<?php include 'include/pied-de-page.php'; ?>
 
-    <script src="styles.js"></script>
+<script src="styles.js"></script>
 </body>
 
 </html>

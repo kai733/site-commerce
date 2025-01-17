@@ -176,17 +176,20 @@ a {
     overflow: hidden;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right:
 }
 
 .carousel-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    margin-right:auto
 }
 
 .carousel-item {
     min-width: 100%;
     box-sizing: border-box;
     display: none;
+    margin-right:auto
 }
 
 .carousel-item:first-child {
