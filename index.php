@@ -9,12 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Boutique Gaming</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <?php include 'include/entete.php'; ?>
     <main>
-        <div>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Bienvenue chez PixelPlay</h1>
+                <p>Découvrez les meilleurs accessoires de jeu pour améliorer votre expérience.</p>
+                <a href="#featured-products" class="btn">Voir les produits à la une</a>
+            </div>
+        </section>
+
+        <div class="content">
             <section class="index-container">
                 <h2>Bienvenue chez la Boutique d'Accessoires de Jeux Vidéo</h2>
                 <p>Découvrez une sélection unique d'accessoires conçus pour sublimer votre expérience de jeu.</p>
@@ -32,62 +42,41 @@
         </div>
 
         <!-- Featured Products Carousel -->
-        <section class="carousel">
+        <section class="carousel" id="featured-products">
             <h2>Produits à la une</h2>
-            <div class="carousel-container" id="featured-products">
+            <div class="carousel-container">
                 <!-- Add your product images here -->
-                <div class="carousel-item"><a href="produit.php?id=1"><img src="img/écran gaming.jpg" alt="Ecran Gamer"></a></div>
-                <div class="carousel-item"><a href="produit.php?id=8"><img src="img/PC Gamer.jpg" alt="PC Gamer"></a></div>
-                <div class="carousel-item"><a href="produit.php?id=2"><img src="img/clavier.jpg" alt="Clavier"></a></div>
+                <div class="carousel-item"><img src="img/ecran.jpg" alt="Produit 1"></div>
+                <div class="carousel-item"><img src="img/clavier.jpg" alt="Produit 2"></div>
+                <div class="carousel-item"><img src="img/tapis.jpg" alt="Produit 3"></div>
             </div>
             <button class="carousel-button prev" onclick="prevSlide('featured-products')">&#10094;</button>
             <button class="carousel-button next" onclick="nextSlide('featured-products')">&#10095;</button>
         </section>
 
         <!-- Customer Reviews Carousel -->
-        <!-- Customer Reviews Carousel -->
         <section class="carousel">
             <h2>Avis des clients satisfaits</h2>
             <div class="carousel-container" id="customer-reviews">
                 <!-- Add your customer reviews here -->
-                <div class="carousel-item">
-                    <p>"Une qualité incroyable, bien au-delà de mes attentes!" - Sarah</p>
-                </div>
-                <div class="carousel-item">
-                    <p>"J'ai adoré l'expérience d'achat, tout était parfait." - Thomas</p>
-                </div>
-                <div class="carousel-item">
-                    <p>"Produit vraiment bien pensé et pratique au quotidien." - Claire</p>
-                </div>
-                <div class="carousel-item">
-                    <p>"Un must-have! Je suis super content de mon achat." - Julien</p>
-                </div>
-                <div class="carousel-item">
-                    <p>"Le design est élégant et la fonctionnalité est impeccable." - Emma</p>
-                </div>
-                <div class="carousel-item">
-                    <p>"Equipe super professionnelle, je reviendrai sans hésiter." - Louis</p>
-                </div>
-                <div class="carousel-item">
-                    <p>"Le meilleur service que j'aie connu jusqu'à présent!" - Camille</p>
-                </div>
-                <div class="carousel-item">
-                    <p>"Très satisfait du rapport qualité/prix, bravo!" - Nicolas</p>
-                </div>
-                <div class="carousel-item">
-                    <p>"L'emballage soigné et la livraison rapide m'ont impressionné." - Lucie</p>
-                </div>
-                <div class="carousel-item">
-                    <p>"Le produit dépasse largement les concurrents, je recommande vivement." - Paul</p>
-                </div>
+                <div class="carousel-item"><p>"Excellent produit, je recommande!" - Jean</p></div>
+                <div class="carousel-item"><p>"Service client au top!" - Marie</p></div>
+                <div class="carousel-item"><p>"Livraison rapide et produit conforme." - Pierre</p></div>
             </div>
             <button class="carousel-button prev" onclick="prevSlide('customer-reviews')">&#10094;</button>
             <button class="carousel-button next" onclick="nextSlide('customer-reviews')">&#10095;</button>
         </section>
-
     </main>
+
     <?php include 'include/pied-de-page.php'; ?>
+
     <script src="styles.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            initCarousel('featured-products');
+            initCarousel('customer-reviews');
+        });
+    </script>
 </body>
 
 </html>

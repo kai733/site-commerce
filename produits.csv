@@ -1,10 +1,10 @@
 "Id","Image","Nom","Prix"
-1,"img/écran gaming.jpg", "Écran Gamer 27" 144Hz QHD, 299
+1,"img/ecran.jpg", "Écran Gamer 27" 144Hz QHD, 299
 2,"img/clavier.jpg", "Clavier Mécanique RGB Pro Switch", 150
 3,"img/souris.jpg", "Souris Gaming 12K DPI Ultra Précise", 70
-4,"img/tapis de souris.jpg", "Tapis de Souris XXL RGB Dynamic",38
+4,"img/tapis.jpg", "Tapis de Souris XXL RGB Dynamic",38
 5,"img/casque.jpg", "Casque Gamer 7.1 Surround Audio", 120
 6,"img/manette.jpg", "Manette Élite Pro Ergonomique", 90
-7,"img/bras micro.jpg", "Micro Streaming HD avec Bras", 150
-8,"img/PC Gamer.jpg", "PC Gamer Édition RTX 4090 Ultra", 3200
-9,"img/equipement stream.jpg", "Kit Streaming Complet", 2899
+7,"img/micro.jpg", "Micro Streaming HD avec Bras", 150
+8,"img/PCGamer.jpg", "PC Gamer Édition RTX 4090 Ultra", 3200
+9,"img/equipement.jpg", "Kit Streaming Complet", 2899
