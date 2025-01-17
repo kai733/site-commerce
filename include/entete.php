@@ -1,10 +1,4 @@
 <header>
-    <div class="banner">
-        <a href="index.php">
-            <img src="img/logo.png" alt="PixelPlay Logo" class="logo">
-        </a>
-        <h1>PixelPlay</h1>
-    </div>
     <nav class="navbar">
         <div class="container">
             <a href="index.php" class="logo">PixelPlay</a>

@@ -61,19 +61,6 @@ a {
     color: #ff6600;
 }
 
-/* Banner */
-.banner {
-    background-color: #444;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    margin-top: 60px; /* Adjust for fixed navbar */
-}
-
-.banner h1 {
-    font-size: 2em;
-    margin: 0;
-}
 
 /* Hero Section */
 .hero {
