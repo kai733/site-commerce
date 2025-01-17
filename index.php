@@ -24,22 +24,34 @@
             </div>
         </section>
 
-        <div class="content">
-            <section class="index-container">
-                <h2>Bienvenue chez la Boutique d'Accessoires de Jeux Vidéo</h2>
-                <p>Découvrez une sélection unique d'accessoires conçus pour sublimer votre expérience de jeu.</p>
-                <section class="legal-section">
-                    <h2>Ce que nous offrons :</h2>
-                    <ul>
-                        <li>Accessoires de qualité : Des claviers, souris, casques, manettes et plus encore, spécialement sélectionnés pour les gamers exigeants.</li>
-                        <li>Des produits pour tous les joueurs : Que vous soyez joueur occasionnel ou professionnel, nous avons ce qu’il vous faut.</li>
-                        <li>Livraison rapide et sécurisée : Recevez vos produits directement chez vous, partout en France.</li>
-                        <li>Support client dédié : Notre équipe est à votre écoute pour répondre à toutes vos questions.</li>
-                        <li>Rejoignez notre communauté de passionnés et améliorez votre setup dès aujourd’hui !</li>
-                    </ul>
-                </section>
-            </section>
-        </div>
+        <!-- Features Section -->
+        <section class="features">
+            <div class="feature-item">
+                <img src="img/qualite.png" alt="Qualité">
+                <h3>Accessoires de qualité</h3>
+                <p>Des claviers, souris, casques, manettes et plus encore, spécialement sélectionnés pour les gamers exigeants.</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/imanette.png" alt="Variété">
+                <h3>Des produits pour tous les joueurs</h3>
+                <p>Que vous soyez joueur occasionnel ou professionnel, nous avons ce qu’il vous faut.</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/livraison.png" alt="Livraison">
+                <h3>Livraison rapide et sécurisée</h3>
+                <p>Recevez vos produits directement chez vous, partout en France.</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/service.png" alt="Support">
+                <h3>Support client dédié</h3>
+                <p>Notre équipe est à votre écoute pour répondre à toutes vos questions.</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/connexion.png" alt="Communauté">
+                <h3>Rejoignez notre communauté</h3>
+                <p>Rejoignez notre communauté de passionnés et améliorez votre setup dès aujourd’hui !</p>
+            </div>
+        </section>
 
         <!-- Featured Products Carousel -->
         <section class="carousel" id="featured-products">
@@ -71,12 +83,6 @@
     <?php include 'include/pied-de-page.php'; ?>
 
     <script src="styles.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            initCarousel('featured-products');
-            initCarousel('customer-reviews');
-        });
-    </script>
 </body>
 
 </html>
