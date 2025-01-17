@@ -1,6 +1,9 @@
 <header>
     <div class="banner">
-        <h1>Boutique d'Accessoires de Jeux Vidéo</h1>
+        <a href="index.php">
+            <img src="img/logo.png" alt="PixelPlay Logo" class="logo">
+        </a>
+        <h1>PixelPlay</h1>
     </div>
 </header>
 
