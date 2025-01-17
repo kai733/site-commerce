@@ -36,8 +36,8 @@
             <h2>Produits à la une</h2>
             <div class="carousel-container" id="featured-products">
                 <!-- Add your product images here -->
-                <div class="carousel-item"><a href="produit.php?id=1"><img src="img/écran gaming.jpg" alt="Ecran Gamer"></a></div>
-                <div class="carousel-item"><a href="produit.php?id=8"><img src="img/PC Gamer.jpg" alt="PC Gamer"></a></div>
+                <div class="carousel-item"><a href="produit.php?id=1"><img src="img/écran gaming.jpg" alt="ecran.jpg"></a></div>
+                <div class="carousel-item"><a href="produit.php?id=8"><img src="img/PC Gamer.jpg" alt="PCGamer"></a></div>
                 <div class="carousel-item"><a href="produit.php?id=2"><img src="img/clavier.jpg" alt="Clavier"></a></div>
             </div>
             <button class="carousel-button prev" onclick="prevSlide('featured-products')">&#10094;</button>
@@ -46,7 +46,7 @@
 
         <!-- Customer Reviews Carousel -->
         <!-- Customer Reviews Carousel -->
-        <section class="carousel">
+        <section class="carousel">   
             <h2>Avis des clients satisfaits</h2>
             <div class="carousel-container" id="customer-reviews">
                 <!-- Add your customer reviews here -->
