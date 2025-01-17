@@ -587,3 +587,11 @@ button.boutton-pas-vert:hover {
     margin: 0 auto;
     padding: 20px;
 }
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
