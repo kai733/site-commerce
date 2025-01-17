@@ -2,13 +2,20 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
+    padding-top: 60px;
     background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    padding: 0;
+    text-align: center;
+}
+
+h2{
+    padding: 30px;
 }
 
 a {
@@ -37,8 +44,19 @@ a {
 }
 
 .navbar .logo {
+    display: flex;
+    align-items: center;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.navbar .logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar .logo-text {
+    display: inline-block;
 }
 
 .navbar .nav-links {
@@ -368,7 +386,7 @@ a {
 
 footer {
     text-align: center;
-    background-color: #003C57;
+    background-color: #333;
     color: white;
     padding: 1rem;
     margin-top: auto;
@@ -438,7 +456,7 @@ button.boutton-vert:hover {
 
 .cart-section {
     padding: 20px;
-    background-color: #EEEDFF;
+    background-color: #ffffff;
     border-radius: 8px;
 }
 
