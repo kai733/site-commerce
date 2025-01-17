@@ -26,7 +26,7 @@
                 <img src="img/faceboook.jpg" alt="Facebook">
             </a>
             <a href="https://www.tiktok.com/@tiktok?lang=fr" target="_blank">
-                <img src="img/tikk tok.jpg" alt="TikTok">
+                <img src="img/tiktok.jpg" alt="TikTok">
             </a>
         </div>
         <div class="contact-container">
