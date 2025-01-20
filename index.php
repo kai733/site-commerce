@@ -58,9 +58,9 @@
             <h2>Produits à la une</h2>
             <div class="carousel-container">
                 <!-- Add your product images here -->
-                <div class="carousel-item"><img src="img/ecran.jpg" alt="Produit 1"></div>
-                <div class="carousel-item"><img src="img/clavier.jpg" alt="Produit 2"></div>
-                <div class="carousel-item"><img src="img/tapis.jpg" alt="Produit 3"></div>
+                <div class="carousel-item"><a href="produit.php?id=1"><img src="img/ecran.jpg" alt="Produit 1"></a></div>
+                <div class="carousel-item"><a href="produit.php?id=2"><img src="img/clavier.jpg" alt="Produit 2"></a></div>
+                <div class="carousel-item"><a href="produit.php?id=4"><img src="img/tapis.jpg" alt="Produit 3"></a></div>
             </div>
             <button class="carousel-button prev" onclick="prevSlide('featured-products')">&#10094;</button>
 <button class="carousel-button next" onclick="nextSlide('featured-products')">&#10095;</button>
