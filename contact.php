@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts - Gaming Accessories Store</title>
+    <title>Contact - PixelPlay</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
