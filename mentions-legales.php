@@ -33,10 +33,10 @@
                 <h2>2. Hébergeur du site</h2>
                 <p>Le site est hébergé par :</p>
                 <ul>
-                    <li><strong>Nom de l'hébergeur :</strong> OVH</li>
-                    <li><strong>Adresse :</strong> 2 rue Kellermann, 59100 Roubaix</li>
-                    <li><strong>Téléphone :</strong> 09 72 10 10 07</li>
-                    <li><strong>Site web :</strong> <a href="https://www.ovh.com" target="_blank">www.ovh.com</a></li>
+                    <li><strong>Nom de l'hébergeur :</strong> MMI Agences</li>
+                    <li><strong>Adresse :</strong> 28 Av. du Lac d'Annecy, 73370 Le Bourget-du-Lac</li>
+                    <li><strong>Téléphone :</strong> 04 79 75 81 76</li>
+                    <li><strong>Site web :</strong> <a href="https://mmi-agences.univ-smb.fr/" target="_blank">mmi-agences.univ-smb.fr</a></li>
                 </ul>
             </section>
 
