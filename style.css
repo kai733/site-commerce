@@ -184,6 +184,7 @@ a {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%; /* Full width */
+    justify-content: center; /* Center the carousel items */
 }
 
 .carousel-item {
@@ -194,13 +195,14 @@ a {
     flex-direction: column;
     margin: 0 5%; /* Adjusted margin for spacing */
     padding: 15px; /* Reduced padding for smaller size */
+    text-align: center; /* Center text in carousel items */
 }
 
 .carousel-item:first-child {
     display: block;
 }
 
-.carousel-item h3 {
+.carousel-item p {
     text-align: center; /* Center text */
     margin-bottom: 5px; /* Added margin for spacing */
 }

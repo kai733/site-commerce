@@ -23,7 +23,7 @@
                 <img src="img/insta.jpg" alt="Instagram">
             </a>
             <a href="https://facebook.com" target="_blank">
-                <img src="img/faceboook.jpg" alt="Facebook">
+                <img src="img/facebook.jpg" alt="Facebook">
             </a>
             <a href="https://www.tiktok.com/@tiktok?lang=fr" target="_blank">
                 <img src="img/tiktok.jpg" alt="TikTok">

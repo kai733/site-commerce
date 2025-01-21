@@ -66,7 +66,6 @@
 <button class="carousel-button next" onclick="nextSlide('featured-products')">&#10095;</button>
 </section>
 
-<!-- Customer Reviews Carousel -->
 <section class="carousel">
     <h2>Avis des clients satisfaits</h2>
     <div class="carousel-container" id="customer-reviews">
