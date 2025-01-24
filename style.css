@@ -78,6 +78,54 @@ a {
     color: #ff6600;
 }
 
+/* Add mobile menu styles */
+.hamburger {
+    display: none; /* Hide by default */
+}
+
+@media (max-width: 768px) {
+    .navbar .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .navbar .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block; /* Only show on mobile */
+        background: transparent;
+    }
+
+    .hamburger .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        background-color: white;
+        transition: all 0.3s ease;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
 
 /* Hero Section */
 .hero {
@@ -162,12 +210,6 @@ a {
     font-size: 1em;
     color: #666;
 }
-
-.feature-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 /* Carousel */
 .carousel {
     position: relative;
@@ -244,10 +286,11 @@ a {
 /* Additional Styles */
 .product-flex {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     margin: 20px auto;
     max-width: 1200px;
+    padding: 0 20px;
 }
 
 .product-flex a {
@@ -269,8 +312,10 @@ a {
 }
 
 .product-box img {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    aspect-ratio: 1/1;
     object-fit: contain;
     border-radius: 5px;
     margin-bottom: 10px;

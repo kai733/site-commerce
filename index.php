@@ -34,7 +34,7 @@
             <div class="feature-item">
                 <img src="img/imanette.png" alt="Variété">
                 <h3>Des produits pour tous les joueurs</h3>
-                <p>Que vous soyez joueur occasionnel ou professionnel, nous avons ce qu’il vous faut.</p>
+                <p>Que vous soyez joueur occasionnel ou professionnel, nous avons ce qu'il vous faut.</p>
             </div>
             <div class="feature-item">
                 <img src="img/livraison.png" alt="Livraison">
