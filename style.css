@@ -163,6 +163,13 @@ a {
     font-size: 1em;
 }
 
+.hero img{
+    width: 50px;  /* Increased size for better visibility */
+    height: 50px;
+    display: block; /* Change from default inline to block */
+    margin: 60px auto 0; /* Add top margin and center horizontally */
+}
+
 /* Content Section */
 .content {
     padding: 20px;

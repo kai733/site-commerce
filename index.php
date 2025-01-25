@@ -21,6 +21,7 @@
                 <h1>Bienvenue chez PixelPlay</h1>
                 <p>Découvrez les meilleurs accessoires de jeu pour améliorer votre expérience.</p>
                 <a href="#featured-products" class="btn">Voir les produits à la une</a>
+                <img src="img/fleche.png" alt="fleche">
             </div>
         </section>
 
